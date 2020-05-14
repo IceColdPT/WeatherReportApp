@@ -1,0 +1,67 @@
+<html>
+    <head>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body >
+     
+        <main class="main">
+        <div class="base">
+            
+            <div class="title" id="lblcity">
+                
+                <p>Weather</p>
+            </div>
+            <div class="metacontainer">
+            <div class="data">
+                <div class="datasection">
+                <div id="" class="lblcity">Temperature</div>
+                <div id="lbltemp" class="temp">-1</div>
+               
+            
+                    <div id="" class="lblcity">Sunrise</div>
+                    <div id="lbltemp" class="sunrise">-1</div>
+                    <div id="" class="lblcity">Sunset</div>
+                    <div id="lbltemp" class="sunset">-1</div>
+                    <div id="" class="lblcity">Country</div>
+                    <div id="lbltemp" class="country">-1</div>
+                 
+            </div>
+             <div class="datasection">
+                <div id="" class="lblcity">Local Time</div>
+                <div id="lbltemp" class="localtime">-1</div>
+                <div id="" class="lblcity">Condtition</div>
+                <div id="condition" class="temp">-1</div>
+                <img class="statusicon" src="" alt=""> 
+            </div>
+   
+            </div>
+
+   
+     
+            </div>
+                <div class="switcher">
+                    <button id="switchb" class="switchblade" >Metric</button>
+                </div>
+                <div class="citylist">
+                    <select name="city" size="3" class="selector" id="selector" onchange=onChange()>
+                        <option value="Tokyo,jp">Tokyo</option>
+                        <option value="Barreiro,pt" selected>Barreiro</option>
+                        <option value="London,uk">London</option>
+            
+                      </select>
+                    </div>
+                 
+                
+            </div>
+        </div>
+
+        </div>
+
+        </main>
+
+
+        <script src="script.js"></script>
+    </body>
+</html>
